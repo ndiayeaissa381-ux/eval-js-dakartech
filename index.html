@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <div class="conteneur">
-    <h1>Ma To-Do List</h1>
-    <div class="formulaire">
-        <input type="text" id="champ_tache" placeholder="Ajouter une tâche...">
-        <button id="btn_ajouter">Ajouter</button>
+        <h1>To-Do List</h1>
+        <div class="formulaire">
+            <input type="text" id="champ_tache" placeholder="Ajouter une tâche...">
+            <button id="btn_ajouter">Ajouter</button>
+        </div>
+        <p id="message_erreur"></p>
+        <p id="compteur">0 tache en cours</p>
+        <ul id="liste_taches"></ul>
     </div>
-    <p id="message_erreur" class="erreur"></p>
-    <p id="compteur">0 tâche(s) en cours</p>
-    <ul id="liste_taches"></ul>
-</div>
+    <script src="script.js"></script>
+</body>
+</html>

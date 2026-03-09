@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.conteneur {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulaire {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.formulaire input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulaire button {
+    padding: 8px 14px;
+    background-color: #4a90d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message_erreur {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+    min-height: 18px;
+}
+
+#compteur {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#liste_taches {
+    list-style: none;
+}
+
+.tache {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tache.terminee span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.tache.terminee {
+    opacity: 0.6;
+}
+
+.btn_terminer {
+    padding: 5px 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
