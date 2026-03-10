@@ -34,3 +34,12 @@ function afficherListe() {
 }
 
 afficherListe();
+
+function terminerTache(index) {
+    if (taches[index].terminee === false) {
+        taches[index].terminee = true;
+    } else {
+        taches[index].terminee = false;
+    }
+    afficherListe();
+}
