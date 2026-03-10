@@ -1,0 +1,20 @@
+**Nom et Prénom :** Aissa Ndiaye  
+**Filière :** IT/iA et bases de donnees
+**Établissement :** College de Paris-DakarTech
+
+## Description du projet
+Ce projet est une application To-Do List en HTML, CSS et JavaScript avec le DOM. Ici L'utilisateur peut ajouter, voir ses taches et les marquer comme terminees
+
+## Ce qui a été fait
+- Structure HTML complete
+- Mise en page CSS (page centree, cartes de taches, boutons stylises)
+- Tableau de taches avec objets JavaScript
+- Affichage des taches dans le DOM avec createElement
+- Marquer une tache comme terminée (texte barre, style simple)
+
+## Ce qui n'a pas été fait
+- Ajout de tache via le formulaire : j'ai eu du mal a recuperer la valeur du champ input et a l'inserer dans le tableau dynamiquement
+- Suppression de tache : je n'ai pas reussi a utiliser splice correctement avec l'index
+- Compteur : depend de l'ajout et la suppression que je n'ai pas termine
+- Filtres et localStorage : fonctionnalites bonus, je crois que vous avez oublie de l'ajouter sur les cours lors du dernier cours
+- Lorsque je fais un commit sur un fichier l'heure du precedent commit de ce fichier change pour afficher mon dernier commit recent (ce qui s'est passe avec mon fichier script.js)

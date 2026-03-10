@@ -25,8 +25,15 @@ function afficherListe() {
 
         let btnTerminer = document.createElement("button");
         btnTerminer.className = "btn_terminer";
-        btnTerminer.textContent = "Terminé";
+        if (tache.terminee === true) {
+            btnTerminer.textContent = "Reprendre";
+        } else {
+            btnTerminer.textContent = "Terminé";
+        }
 
+        btnTerminer.addEventListener("click", function () {
+            toggleTerminee(i);
+        });
         li.appendChild(span);
         li.appendChild(btnTerminer);
         listeTaches.appendChild(li);
